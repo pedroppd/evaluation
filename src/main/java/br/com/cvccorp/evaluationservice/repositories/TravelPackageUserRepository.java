@@ -1,4 +1,4 @@
-package br.com.cvccorp.evaluationservice.repositories.impl;
+package br.com.cvccorp.evaluationservice.repositories;
 
 
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @Repository
-public class TravelPackageUserRepositoryImpl {
+public class TravelPackageUserRepository {
 
     @PersistenceContext
     private EntityManager entityManager;
