@@ -2,7 +2,7 @@ package br.com.cvccorp.evaluationservice.services;
 
 import br.com.cvccorp.evaluationservice.config.dto.InternalServerError;
 import br.com.cvccorp.evaluationservice.repositories.impl.TravelPackageUserRepositoryImpl;
-import br.com.cvccorp.evaluationservice.repositories.dtos.TravelPackageDTO;
+import br.com.cvccorp.evaluationservice.repositories.dto.TravelPackageDTO;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

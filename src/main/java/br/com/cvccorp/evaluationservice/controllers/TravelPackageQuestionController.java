@@ -1,7 +1,7 @@
 package br.com.cvccorp.evaluationservice.controllers;
 
 import br.com.cvccorp.evaluationservice.config.dto.InternalServerError;
-import br.com.cvccorp.evaluationservice.repositories.dtos.TravelPackageDTO;
+import br.com.cvccorp.evaluationservice.repositories.dto.TravelPackageDTO;
 import br.com.cvccorp.evaluationservice.services.EvaluationService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;

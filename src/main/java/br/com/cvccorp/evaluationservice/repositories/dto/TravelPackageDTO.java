@@ -1,4 +1,4 @@
-package br.com.cvccorp.evaluationservice.repositories.dtos;
+package br.com.cvccorp.evaluationservice.repositories.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
