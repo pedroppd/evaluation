@@ -9,7 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
@@ -24,9 +23,6 @@ public class User implements Serializable {
     private String last_name;
     private String email;
     private String password;
-    @OneToMany(mappedBy = "user_uuid")
-    private List<TravelPackageEvaluation> travelPackageEvaluation;
-    private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
-    private LocalDateTime deletedAt;
+    @OneToMany(mappedBy = "user")
+    private List<Evaluation> travelPackageEvaluation;
 }

@@ -21,13 +21,10 @@ public class TravelPackage implements Serializable {
     @Id
     private String uuid;
     private String description;
-    private LocalDateTime travel_date;
+    private LocalDateTime travelDate;
     private String localization;
-    private LocalDateTime initial_date;
-    private LocalDateTime end_date;
-    private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
-    private LocalDateTime deletedAt;
-    @OneToMany(mappedBy = "travel_package_uuid")
-    private List<TravelPackageEvaluation> TravelPackageEvaluation;
+    private LocalDateTime initialDate;
+    private LocalDateTime endDate;
+    @OneToMany(mappedBy = "travelPackage")
+    private List<Evaluation> TravelPackageUser;
 }
