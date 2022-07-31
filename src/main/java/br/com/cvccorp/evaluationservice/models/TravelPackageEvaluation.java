@@ -29,7 +29,7 @@ public class TravelPackageEvaluation implements Serializable {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_uuid")
     private User user_uuid;
-    private int note;
+    private Float travel_note;
     private String image_url;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
